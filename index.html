@@ -10,47 +10,50 @@
     <body>
         <h1 class="hidden">MMED-1055 - Multimedia Authoring - Homework 1 - Interactive SVG Icons</h1>
         <?xml version="1.0" encoding="UTF-8"?>
-    <header class="header-container">
-        <h1 class="title">Syd's Interactive SVG Icons</h1>
-        <h2 class="header-instructions">Check out the cool CSS Animations for each SVG by following the instructions provided.</h2>
-    </header>
+        <header class="flexbox">
+            <h1 class="title">Syd's Interactive SVG Icons</h1>
+            <h2 class="header-instructions">Check out the cool CSS Animations for each SVG by following the instructions provided.</h2>
+        </header>
 
-<!--This lets you import data, must specify, image/svg+xml this object is an -->
-        <div class="container">
-            <h1 class="instructions1">Hover over the HEART to watch it beat</h1>
-            <object class="svg-icon" data="images/heart.svg" type="image/svg+xml"></object>
+        <div class="flexbox">
+
+            <div class="container">
+                <h1 class="instructions1">Hover over the HEART<br>to watch it beat</h1>
+                <object class="svg-icon" data="images/heart.svg" type="image/svg+xml"></object>
+            </div>
+
+            <div class="container">
+                <h1 class="instructions1">Hover over the HEARTS<br>to watch them switch colours</h1>
+                <object class="svg-icon"  data="images/two-hearts.svg" type="image/svg+xml"></object>
+            </div>
+
+            <div class="container">
+                <h1 class="instructions1">Hover over the FLOWER<br>to watch it grow</h1>
+                <object class="svg-icon"  data="images/flower.svg" type="image/svg+xml"></object>
+            </div>
+
+            <div class="container-y">
+                <h1 class="instructions2">Hover over the STARFLOWER<br>to watch it spin</h1>
+                <object class="svg-icon"  data="images/starflower.svg" type="image/svg+xml"></object>
+            </div>
+
+            <div class="container-y">
+                <h1 class="instructions2">Hover over the STAR<br>to watch it pulse</h1>
+                <object class="svg-icon"  data="images/star-pulse.svg" type="image/svg+xml"></object>
+            </div>
+
+            <div class="container-w2">
+                <h1 class="instructions2">Hover over the STARS<br>to watch them move</h1>
+                <object class="svg-icon-w"  data="images/three-stars.svg" type="image/svg+xml"></object>
+            </div>
+
+            <div class="container-w">
+                <h1 class="instructions2">Hover over the STARS<br>to watch them dance</h1>
+                <object class="svg-icon-w"  data="images/star-cluster.svg" type="image/svg+xml"></object>
+            </div>
+
         </div>
-
-        <div class="container">
-            <h1 class="instructions1">Hover over the HEARTS to watch them switch colours</h1>
-            <object class="svg-icon"  data="images/two-hearts.svg" type="image/svg+xml"></object>
-        </div>
-
-        <div class="container">
-            <h1 class="instructions1">Hover over the FLOWER to watch it grow</h1>
-            <object class="svg-icon"  data="images/flower.svg" type="image/svg+xml"></object>
-        </div>
-
-        <div class="container">
-            <h1 class="instructions2">Hover over the STARFLOWER to watch it spin</h1>
-            <object class="svg-icon"  data="images/starflower.svg" type="image/svg+xml"></object>
-        </div>
-
-        <div class="container">
-            <h1 class="instructions2">Hover over the STAR to watch it pulse</h1>
-            <object class="svg-icon"  data="images/star-pulse.svg" type="image/svg+xml"></object>
-        </div>
-
-        <div class="container-w">
-            <h1 class="instructions2">Hover over the STARS to watch them move</h1>
-            <object class="svg-icon-w"  data="images/star-stack.svg" type="image/svg+xml"></object>
-        </div>
-
-        <div class="container-w">
-            <h1 class="instructions2">Hover over the STARS to watch them dance</h1>
-            <object class="svg-icon-w"  data="images/star-cluster.svg" type="image/svg+xml"></object>
-        </div>
-
+            
        <script src="js/main.js"></script> 
     </body>
 </html>

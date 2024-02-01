@@ -1,0 +1,94 @@
+body {
+    background-color: #210e06;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hidden {
+    display: none;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.title {
+    color: #ffdbd1;
+    font-size: 100px;
+}
+
+.header-instructions {
+    color: #ffeed1;
+    font-size: 25px;
+    padding-bottom: 80px;
+}
+
+.container {
+    background-color: #ffdbd1;
+    border-radius: 15%;
+    width: 600px;
+    height: 600px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;   
+}
+.container-y {
+    background-color: #ffeed1;
+    border-radius: 15%;
+    width: 600px;
+    height: 600px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+.container-w {
+    background-color: #ffeed1;
+    border-radius: 15%;
+    width: 1200px;
+    height: 600px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+.container-w2 {
+    background-color: #ffeed1;
+    border-radius: 15%;
+    width: 1200px;
+    height: 600px;
+    padding-top: 10px;
+    padding-right: 200px;
+    padding-left: 200px;
+    margin: 20px;
+    text-align: center;
+}
+
+.instructions1 {
+    padding-top: 10px;
+    color: #8B4250;
+    font-size: 25px;
+}
+
+.instructions2 {
+    padding-top: 10px;
+    color: #8B4250;
+    font-size: 25px;
+}
+
+.svg-icon {
+    width: 300px;
+    height: 300px;
+    padding-top: 80px;
+    padding-left: 150px;
+    padding-right: 200px;
+}
+
+.svg-icon-w {
+    width: 800px;
+    height: 300px;
+    padding-top: 90px;
+}
