@@ -22,7 +22,7 @@ body {
 
 .header-instructions {
     color: #ffeed1;
-    font-size: 25px;
+    font-size: 30px;
     padding-bottom: 80px;
 }
 
@@ -47,7 +47,7 @@ body {
 
 .container-w {
     background-color: #ffeed1;
-    border-radius: 15%;
+    border-radius: 30%;
     width: 1200px;
     height: 600px;
     padding: 10px;
@@ -57,12 +57,13 @@ body {
 
 .container-w2 {
     background-color: #ffeed1;
-    border-radius: 15%;
+    border-radius: 50%;
     width: 1200px;
     height: 600px;
     padding-top: 10px;
     padding-right: 200px;
     padding-left: 200px;
+    padding-bottom: 100px;
     margin: 20px;
     text-align: center;
 }
@@ -75,6 +76,12 @@ body {
 
 .instructions2 {
     padding-top: 10px;
+    color: #8B4250;
+    font-size: 25px;
+}
+
+.instructions3 {
+    padding-top: 30px;
     color: #8B4250;
     font-size: 25px;
 }
