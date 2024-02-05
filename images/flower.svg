@@ -13,6 +13,28 @@
       .cls-2 {
         fill: #8b4250;
       }
+
+      @keyframes growShrink {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.2);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+
+      #_inside-petals_ {
+        transform-origin: center;
+        transition: transform 0.5s ease-in-out;
+      }
+
+      #_inside-petals_:hover {
+        animation: growShrink 1s ease-in-out infinite;
+      }
+
     </style>
   </defs>
   <g id="_outside-petals_" data-name="&amp;lt;outside-petals&amp;gt;">
